@@ -1,7 +1,7 @@
 # Mathematical Principles I for Computational Engineering Science
-This repository contains some material for the course "Mathematical Principles
-I" ("Mathematische Grundlagen I") for the Computational Engineering Science
-bachelor program at RWTH Aachen University.
+This repository contains material for the course "Mathematical Principles
+I" (*"Mathematische Grundlagen I*") for the Computational Engineering Science
+bachelor program at RWTH Aachen University (winter term 2022/2023).
 
 ## Pluto notebooks
 If you are new to [Julia](https://julialang.org) and [Pluto.jl](https://github.com/fonsp/Pluto.jl),

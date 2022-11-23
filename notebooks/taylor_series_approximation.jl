@@ -79,7 +79,7 @@ function poly_deg5(x)
 end
 
 # ╔═╡ f99de53a-f1aa-4716-81c1-bfa9badbd2bd
-@bind selected_function Select([sin => "sin(x)", cos => "cos(x)", exp => "exp(x)", poly_deg5 => "poly_deg5(x)"])
+@bind selected_function Select([sin, cos, exp, poly_deg5])
 
 # ╔═╡ 36593ca8-9fcd-408b-a490-d7d6425d03b6
 md"""

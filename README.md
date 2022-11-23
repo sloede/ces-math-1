@@ -1,23 +1,25 @@
 # Mathematical Principles I for Computational Engineering Science
-This repository contains material for the course "Mathematical Principles
-I" (*"Mathematische Grundlagen I*") for the Computational Engineering Science
+This is a repository for the course "Mathematical Principles
+I" (*Mathematische Grundlagen I*) for the Computational Engineering Science
 bachelor program at RWTH Aachen University (winter term 2022/2023).
 
 ## Pluto notebooks
-If you are new to [Julia](https://julialang.org) and [Pluto.jl](https://github.com/fonsp/Pluto.jl),
-following the instructions [below](#getting-started-with-julia-and-pluto) to get started.
-
-The following notebooks are available in this repository:
+Notebooks available in this repository:
 * **Notebook 1: Taylor series approximation**
   ([Pluto link](https://raw.githubusercontent.com/sloede/ces-math-1/main/notebooks/taylor_series_approximation.jl),
-   [HTML preview](http://ces-math-1.lakemper.eu/notebooks/html/taylor_series_approximation.jl.html))
+   [HTML preview](https://ces-math-1.lakemper.eu/notebooks/html/taylor_series_approximation.jl.html))
+
+If you are new to [Julia](https://julialang.org) and [Pluto.jl](https://github.com/fonsp/Pluto.jl),
+follow the instructions [below](#getting-started-with-julia-and-pluto) to get started.
 
 ## Getting started with Julia and Pluto
 The following description is roughly based on the excellent instructions
 [here](https://computationalthinking.mit.edu/Spring21/installation/).
 
 ### Get Julia
-To get Julia, go to https://julialang.org/downloads/ and download the *current stable release*
+To get Julia, go to
+[https://julialang.org/downloads/](https://ces-math-1.lakemper.eu/)
+and download the *current stable release*
 of Julia (not the LTS version, no pre-releases etc.). Check out the
 platform-specific instructions for more information, e.g., for
 [Windows](https://julialang.org/downloads/platform/#windows),
@@ -50,7 +52,13 @@ link in the Julia REPL that looks something like
 
 On the Pluto.jl landing page you will find a section titled "Open a notebook".
 Copy one of the `Pluto link`s from the notebooks [above](#pluto-notebooks) into
-the field and hit "Open" to start the notebook.
+the field and click "Open" to start the notebook.
+
+*Note:* When a notebook is opened, its Julia code is executed once. Depending on
+the notebook, this can take a few seconds. Once the notebook has been loaded
+completely, everything should be snappy. When a notebook is opened for the *very
+first time*, this delay can be even longer (tens of seconds), since Pluto might
+have to install additional Julia packages.
 
 ## Author
 This repository was initiated by [Michael Schlottke-Lakemper](https://lakemper.eu),

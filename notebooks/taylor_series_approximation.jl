@@ -53,6 +53,16 @@ md"""
 (click and drag values left/right to modify ranges)
 """
 
+# ╔═╡ 6e4a15eb-8c68-4837-81dd-caac7c81ba7e
+md"""
+##### How to add a new function
+To add your own function (and show the corresponding Taylor series approximation), you need to do the following things:
+* Implement a new function of a single variable `x` (let's call it `myfun`).
+* Implement a new method for `nth_derivative` that returns the nth derivative for `myfun`.
+* Add `myfun` to the dropdown menu above (under "Function to approximate").
+One example, for which this has already been done in this notebook, is `poly_deg5`. To get started, simply copy `poly_deg5` and its method for `nth_derivative`, rename it to something unique, and implement away 🙂
+"""
+
 # ╔═╡ 6b49c667-b16e-44f3-9f0d-2b8a62f5efda
 md"""
 ## Auxiliary functions and internals
@@ -1189,6 +1199,7 @@ version = "1.4.1+0"
 # ╟─f87f000f-e0c9-46eb-a242-89a4290bd84f
 # ╟─f99de53a-f1aa-4716-81c1-bfa9badbd2bd
 # ╟─46ed00c9-1b42-442d-8421-d31827d9428e
+# ╟─6e4a15eb-8c68-4837-81dd-caac7c81ba7e
 # ╟─6b49c667-b16e-44f3-9f0d-2b8a62f5efda
 # ╟─b8f81a3f-d773-4e67-b8d7-e1734b04abaa
 # ╠═a22d543c-6a50-11ed-002d-7f2fe5bd7276

@@ -35,9 +35,6 @@ md"""
 ##### Evaluation point for derivatives (``x_0``)
 """
 
-# ╔═╡ 0adc42c3-2b82-44d8-8a84-b8d09c7c1796
-@bind x0 Slider(-10:0.05:10, default=0.0, show_value=true)
-
 # ╔═╡ f87f000f-e0c9-46eb-a242-89a4290bd84f
 md"""
 ##### Function to approximate
@@ -52,6 +49,9 @@ md"""
 
 (click and drag values left/right to modify ranges)
 """
+
+# ╔═╡ 0adc42c3-2b82-44d8-8a84-b8d09c7c1796
+@bind x0 Slider(x_min:0.05:x_max, default=0.0, show_value=true)
 
 # ╔═╡ 6e4a15eb-8c68-4837-81dd-caac7c81ba7e
 md"""
@@ -193,7 +193,7 @@ begin
 	)
 
 	# Plot exact function
-	xvalues = range(-10, 10, 1001)
+	xvalues = range(x_min, x_max, 1001)
 	label_exact = L"%$(nameof(selected_function))$\,(x)$"
     plot!(xvalues, selected_function, label=label_exact, linewidth=3)
 

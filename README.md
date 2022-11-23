@@ -10,7 +10,7 @@ following the instructions [below](#getting-started-with-julia-and-pluto) to get
 The following notebooks are available in this repository:
 * **Notebook 1: Taylor series approximation**
   ([Pluto link](https://raw.githubusercontent.com/sloede/ces-math-1/main/notebooks/taylor_series_approximation.jl),
-   [HTML preview](http://ces-math-1.lakemper.eu/notebooks/html/taylor_series_approximation.jl.html)
+   [HTML preview](http://ces-math-1.lakemper.eu/notebooks/html/taylor_series_approximation.jl.html))
 
 ## Getting started with Julia and Pluto
 The following description is roughly based on the excellent instructions

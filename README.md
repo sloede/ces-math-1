@@ -8,6 +8,9 @@ Notebooks available in this repository:
 * **Notebook 1: Taylor series approximation**
   ([Pluto link](https://raw.githubusercontent.com/sloede/ces-math-1/main/notebooks/taylor_series_approximation.jl),
    [HTML preview](https://ces-math-1.lakemper.eu/notebooks/html/taylor_series_approximation.jl.html))
+* **Notebook 2: Riemann integral**
+  ([Pluto link](https://raw.githubusercontent.com/sloede/ces-math-1/main/notebooks/riemann_integral.jl),
+   [HTML preview](https://ces-math-1.lakemper.eu/notebooks/html/riemann_integral.jl.html))
 
 If you are new to [Julia](https://julialang.org) and [Pluto.jl](https://github.com/fonsp/Pluto.jl),
 follow the instructions [below](#getting-started-with-julia-and-pluto) to get started.

@@ -11,6 +11,9 @@ Notebooks available in this repository:
 * **Notebook 2: Riemann integral**
   ([Pluto link](https://raw.githubusercontent.com/sloede/ces-math-1/main/notebooks/riemann_integral.jl),
    [HTML preview](https://ces-math-1.lakemper.eu/notebooks/html/riemann_integral.jl.html))
+* **Notebook 3: Function approximation with orthonormal bases**
+  ([Pluto link](https://raw.githubusercontent.com/sloede/ces-math-1/main/notebooks/orthonormal_basis.jl),
+   [HTML preview](https://ces-math-1.lakemper.eu/notebooks/html/orthonormal_basis.jl.html))
 
 If you are new to [Julia](https://julialang.org) and [Pluto.jl](https://github.com/fonsp/Pluto.jl),
 follow the instructions [below](#getting-started-with-julia-and-pluto) to get started.

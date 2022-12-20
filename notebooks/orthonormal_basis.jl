@@ -31,7 +31,11 @@ First, we define a number of basis functions for the interval `[-1, 1]`.
 # ╔═╡ 5971265c-c2b5-4f7e-929a-8f676c6cfc18
 md"""
 ### Monomial basis functions
-Define a function `monomial` that evalutes the `n`-th monomial at position `x` (orthogonal basis).
+Define a function `monomial` that evalutes the `n`-th monomial,
+```math
+M_n(x) = x^n
+```
+at position `x` (orthogonal basis).
 """
 
 # ╔═╡ 1dd378f7-8d83-47bb-8d21-7381c04ea885
@@ -46,7 +50,11 @@ end
 # ╔═╡ dfcb5c78-22e2-45f7-8288-9bcca180513d
 md"""
 ### Normalized Legendre polynomials
-Define a function `legendre` that evalutes the `n`-th normalized Legendre polynomial at position `x` (orthonormal basis).
+Define a function `legendre` that evalutes the `n`-th orthonormal Legendre polynomial on $[-1,1]$, i.e., polynomials with the properties
+```math
+\int\limits_{-1}^1 P_m(x) P_n(x) \,dx = 0 \quad \text{if } n \ne m, \qquad \text{and} \qquad \|P_n\| = 1 \quad n = 0, 1, 2, \ldots,
+```
+at position `x` (orthonormal basis).
 """
 
 # ╔═╡ c765795a-641c-4e1c-a117-161f3bc571dc
@@ -82,7 +90,11 @@ end
 # ╔═╡ 8284de22-37f1-4ad9-924d-24316bf4c92b
 md"""
 ### Trigonometric basis functions
-Define a function `trigonometric` that evaluates the `n`-th normalized trigonometric basis function at position `x` (orthonormal basis).
+Define a function `trigonometric` that evaluates the `n`-th orthonormal trigonometric basis function on $[-1,1]$,
+```math
+\frac{1}{\sqrt{2}}, \sin(\pi x), \cos(\pi x), \sin(2 \pi x), \cos(2 \pi x), \sin(3 \pi x), \cos(3 \pi x), \ldots
+```
+at position `x` (orthonormal basis).
 """
 
 # ╔═╡ bdcc8c73-c16a-44aa-b69c-840b77a306a2

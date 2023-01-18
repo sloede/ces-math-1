@@ -14,6 +14,9 @@ Notebooks available in this repository:
 * **Notebook 3: Function approximation with orthonormal bases**
   ([Pluto link](https://raw.githubusercontent.com/sloede/ces-math-1/main/notebooks/orthonormal_basis.jl),
    [HTML preview](https://ces-math-1.lakemper.eu/notebooks/html/orthonormal_basis.jl.html))
+* **Notebook 4: Eigenvector search**
+  ([Pluto link](https://raw.githubusercontent.com/sloede/ces-math-1/main/notebooks/eigenvectors.jl),
+   [HTML preview](https://ces-math-1.lakemper.eu/notebooks/html/eigenvectors.jl.html))
 
 If you are new to [Julia](https://julialang.org) and [Pluto.jl](https://github.com/fonsp/Pluto.jl),
 follow the instructions [below](#getting-started-with-julia-and-pluto) to get started.
@@ -68,7 +71,8 @@ have to install additional Julia packages.
 
 ## Author
 This repository was initiated by [Michael Schlottke-Lakemper](https://lakemper.eu),
-who is also its principal maintainer.
+who is also its principal maintainer. Several of the notebooks hosted here are
+based on ideas first developed by [Manuel Torrilhon](https://www.acom.rwth-aachen.de).
 
 ## License
 The contents of this repository are licensed under the MIT license (see

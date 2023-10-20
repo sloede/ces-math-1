@@ -1,22 +1,11 @@
 # Mathematical Principles I (CES/RWTH Aachen)
 This is a repository for the course *Mathematische Grundlagen I*
 ("Mathematical Principles I") for the Computational Engineering Science
-bachelor program at RWTH Aachen University (winter term 2022/2023).
+bachelor program at RWTH Aachen University (winter term 2023/2024).
 
 ## Pluto notebooks
-Notebooks available in this repository:
-* **Notebook 1: Taylor series approximation**
-  ([Pluto link](https://raw.githubusercontent.com/sloede/ces-math-1/main/notebooks/taylor_series_approximation.jl),
-   [HTML preview](https://ces-math-1.lakemper.eu/notebooks/html/taylor_series_approximation.jl.html))
-* **Notebook 2: Riemann integral**
-  ([Pluto link](https://raw.githubusercontent.com/sloede/ces-math-1/main/notebooks/riemann_integral.jl),
-   [HTML preview](https://ces-math-1.lakemper.eu/notebooks/html/riemann_integral.jl.html))
-* **Notebook 3: Function approximation with orthonormal bases**
-  ([Pluto link](https://raw.githubusercontent.com/sloede/ces-math-1/main/notebooks/orthonormal_basis.jl),
-   [HTML preview](https://ces-math-1.lakemper.eu/notebooks/html/orthonormal_basis.jl.html))
-* **Notebook 4: Eigenvector search**
-  ([Pluto link](https://raw.githubusercontent.com/sloede/ces-math-1/main/notebooks/eigenvectors.jl),
-   [HTML preview](https://ces-math-1.lakemper.eu/notebooks/html/eigenvectors.jl.html))
+**Note: Notebooks will be made available here once they are about to be introduced in
+class.**
 
 If you are new to [Julia](https://julialang.org) and [Pluto.jl](https://github.com/fonsp/Pluto.jl),
 follow the instructions [below](#getting-started-with-julia-and-pluto) to get started.
@@ -68,6 +57,11 @@ the notebook, this can take a few seconds. Once the notebook has been loaded
 completely, everything should be snappy. When a notebook is opened for the *very
 first time*, this delay can be even longer (tens of seconds), since Pluto might
 have to install additional Julia packages.
+
+## Archive
+Previous versions of this repository as it was used in earlier semesters can be
+accessed via the appropriate git tags:
+* Winter semester 2022/2023: [`2022-ws`](https://github.com/sloede/ces-math-1/tree/2022-ws)
 
 ## Author
 This repository was initiated by [Michael Schlottke-Lakemper](https://lakemper.eu),

@@ -7,7 +7,7 @@ bachelor program at RWTH Aachen University (winter term 2023/2024).
 Notebooks available in this repository:
 * **Notebook 1: Function approximation with orthonormal bases**
   ([Pluto link](https://raw.githubusercontent.com/sloede/ces-math-1/main/notebooks/orthonormal_basis.jl),
-   [HTML preview](https://ces-math-1.lakemper.eu/notebooks/html/orthonormal_basis.jl.html))
+   [HTML preview](https://ces-math-1.lakemper.eu/notebooks/html/orthonormal_basis.html))
 
 If you are new to [Julia](https://julialang.org) and [Pluto.jl](https://github.com/fonsp/Pluto.jl),
 follow the instructions [below](#getting-started-with-julia-and-pluto) to get started.

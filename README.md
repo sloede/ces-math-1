@@ -10,7 +10,7 @@ Notebooks available in this repository:
    [HTML preview](https://ces-math-1.lakemper.eu/notebooks/html/orthonormal_basis.html))
 * **Notebook 2: Taylor series approximation**
   ([Pluto link](https://raw.githubusercontent.com/sloede/ces-math-1/main/notebooks/taylor_series_approximation.jl),
-   [HTML preview](https://ces-math-1.lakemper.eu/notebooks/html/taylor_series_approximation.jl.html))
+   [HTML preview](https://ces-math-1.lakemper.eu/notebooks/html/taylor_series_approximation.html))
 
 If you are new to [Julia](https://julialang.org) and [Pluto.jl](https://github.com/fonsp/Pluto.jl),
 follow the instructions [below](#getting-started-with-julia-and-pluto) to get started.
